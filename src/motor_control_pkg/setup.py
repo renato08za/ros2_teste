@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'motor_controller = motor_control_pkg.motor_controller:main',
         ],
     },
 )
